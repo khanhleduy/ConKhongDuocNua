@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">ConKhongDuocNua</string>
+    <string name="title_activity_maps">Map</string>
+    <string name="LDK">Lê Duy Khánh</string>
+
+    <string name="age">Tuổi</string>
+    <string name="sex">Giới tính</string>
+    <string name="specialized">Ngành</string>
+
+    <string name="age2">19</string>
+    <string name="sex2">Nam</string>
+    <string name="specialized2">Android</string>
+
+    <string name="facebook_app_id">266284867364409</string>
+    <string name="fb_login_protocol_scheme">fb266284867364409</string>
+</resources>

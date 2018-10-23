@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="#e1f1fd"
+    android:fitsSystemWindows="true"
+    tools:context=".COURSE.LOGIN.SingUpActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:onClick="imgBack"
+            android:src="@drawable/ic_keyboard_arrow_left_black_24dp"/>
+        <ImageView
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_gravity="center"
+            android:src="@drawable/logo2" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center">
+
+            <EditText
+                android:id="@+id/edtEmailDK"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_mail_black_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="Email"
+                android:inputType="textEmailAddress"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/ic_mail_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edtPasswordDK"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="Password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="320dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            app:passwordToggleEnabled="true">
+
+            <EditText
+                android:id="@+id/edtRePasswordDK"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:drawableStart="@drawable/ic_lock_black_24dp"
+                android:drawablePadding="16dp"
+                android:fontFamily="@font/calibri"
+                android:hint="Confirm password"
+                android:inputType="textPassword"
+                android:maxLines="1"
+                android:textColor="@android:color/black"
+                android:textSize="16sp"
+                android:drawableLeft="@drawable/ic_lock_black_24dp" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <Button
+            android:id="@+id/btnRegistrationDK"
+            android:layout_width="320dp"
+            android:layout_height="40dp"
+            android:layout_marginTop="20dp"
+            android:layout_gravity="center"
+            android:layout_marginBottom="20dp"
+            android:background="#29893e"
+            android:fontFamily="@font/calibri"
+            android:text="Đăng ký"
+            android:textColor="@color/colorWhite"
+            android:textStyle="bold" />
+
+
+    </LinearLayout>
+</ScrollView>

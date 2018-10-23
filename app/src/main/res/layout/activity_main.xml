@@ -1,0 +1,143 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".COURSE.ACTIVITY.MainActivity"
+    tools:layout_editor_absoluteY="81dp">
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="31dp"
+        android:orientation="horizontal"
+        app:layout_constraintBottom_toTopOf="@+id/linearLayout2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_chainStyle="packed">
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="151dp">
+
+
+            <ImageView
+                android:id="@+id/imgCourse"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/course"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Course"
+                android:textColor="#3498db"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="278dp">
+
+            <ImageView
+                android:id="@+id/imgMaps"
+                android:onClick="onClick"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                app:srcCompat="@drawable/map"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Maps"
+                android:textColor="#2ecc71"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="4dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="@+id/linearLayout"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout">
+
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="30dp"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="70dp"
+            tools:layout_editor_absoluteY="278dp">
+
+
+            <ImageView
+                android:id="@+id/imgNews"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/news"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="News"
+                android:textColor="#e74c3c"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            tools:layout_editor_absoluteX="170dp"
+            tools:layout_editor_absoluteY="151dp">
+
+
+            <ImageView
+                android:id="@+id/imgSocial"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:onClick="onClick"
+                app:srcCompat="@drawable/social"
+                tools:layout_editor_absoluteX="63dp"
+                tools:layout_editor_absoluteY="104dp" />
+
+            <TextView
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Social"
+                android:textColor="#854299"
+                android:textSize="20sp"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.constraint.ConstraintLayout>

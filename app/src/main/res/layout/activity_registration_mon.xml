@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".COURSE.ACTIVITY.RegistrationMonActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/logo"
+        android:layout_gravity="center"
+        android:layout_marginTop="50dp"
+        />
+
+    <LinearLayout
+        android:layout_marginTop="60dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_gravity="center"
+        >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Tên sinh viên :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginRight="7dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtTenSV"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Mã sinh viên :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginRight="14dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtMSSVDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Môn học :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginRight="50dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtMonDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                />
+        </LinearLayout>
+        <LinearLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Số điện thoại :"
+                android:textColor="@color/colorBlack"
+                android:textSize="20sp"
+                android:layout_marginRight="10dp"
+                android:textStyle="bold"/>
+            <TextView
+                android:layout_marginLeft="20dp"
+                android:id="@+id/txtSDTDT"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="text"
+                />
+        </LinearLayout>
+    </LinearLayout>
+
+
+</LinearLayout>
